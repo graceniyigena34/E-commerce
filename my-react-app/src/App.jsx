@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar"; // ✅ capital N
+import Navbar from "./components/navbar"; 
 import Home from "./components/Home";     
 import About from "./components/About";   
 import Footer from "./components/Footer"; 
@@ -16,9 +16,15 @@ export default function App() {
         {/* Main Page Content */}
         <main className="flex-grow">
           <Routes>
+
+
+
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+
+
+            
           </Routes>
         </main>
 
