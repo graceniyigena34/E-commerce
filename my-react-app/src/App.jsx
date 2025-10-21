@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar"; // Make sure file is Navbar.jsx
-import Home from "./components/Home";    // Make sure file is Home.jsx
+import Home from "./components/Home";  
+import About from "./components/About";   // Make sure file is Home.jsx
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            
+             <Route path="about" element={<About/>} />
           </Routes>
         </main>
       </div>
