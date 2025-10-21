@@ -1,20 +1,18 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar(){
-    return (
-<nav className="bg-cyan-600 text-white py-4 shadow-lg">
-      <div className="container mx-auto flex justify-between items-center px-6">
-        {/* Logo */}
-        <h1 className="text-2xl font-bold tracking-wide">
-          Healing<span className="text-yellow-300">Hands</span>
-        </h1>
-
-        {/* Navigation Links */}
-        <div className="space-x-6 text-lg font-medium">
-          <Link to="/" className="hover:text-yellow-300 transition duration-300">Home</Link>
-          </div>
-          </div>
-            </nav>
-    )
+export default function Navbar() {
+  return (
+    <nav className="bg-white shadow-md p-4">
+      <div className="max-w-6xl mx-auto flex justify-between items-center">
+        <div className="text-2xl font-bold text-blue-600">ShopEase</div>
+        <div className="flex gap-6">
+          <Link to="/" className="hover:text-blue-600">Home</Link>
+          <Link to="/product" className="hover:text-blue-600">Products</Link>
+          <Link to="/about" className="hover:text-blue-600">About</Link>
+          <Link to="/contact" className="hover:text-blue-600">Contact</Link>
+        </div>
+      </div>
+    </nav>
+  );
 }
-export default Navbar;

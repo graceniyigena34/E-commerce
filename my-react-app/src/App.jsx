@@ -1,8 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar"; // ✅ Make sure 'Navbar.jsx' matches exactly
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import Navbar from "./components/navbar"; // ✅ capital N
+import Home from "./components/Home";     
+import About from "./components/About";   
+import Footer from "./components/Footer"; 
+import Contact from "./components/Contact"; 
 
 export default function App() {
   return (
@@ -15,7 +17,8 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* Add other routes like Shop, About, Contact here */}
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
 
@@ -25,6 +28,4 @@ export default function App() {
     </Router>
   );
 }
-
-
 
