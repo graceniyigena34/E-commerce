@@ -13,6 +13,10 @@ export default function App() {
         {/* Navbar */}
         <Navbar />
 
+
+
+        
+
         {/* Main Page Content */}
         <main className="flex-grow">
           <Routes>
@@ -24,7 +28,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
 
 
-            
+
           </Routes>
         </main>
 
