@@ -8,9 +8,7 @@ export default function Navbar() {
         <div className="text-2xl font-bold text-blue-600">ShopEase</div>
         <div className="flex gap-6">
           <Link to="/" className="hover:text-blue-600">Home</Link>
-          <Link to="/product" className="hover:text-blue-600">Products</Link>
-          <Link to="/about" className="hover:text-blue-600">About</Link>
-          <Link to="/contact" className="hover:text-blue-600">Contact</Link>
+          
         </div>
       </div>
     </nav>
