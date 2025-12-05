@@ -1,19 +1,15 @@
-## E-Commerce Web App (React + TypeScript)
+## E-Commerce Web App (React + Vite)
 
-A modern and responsive E-commerce frontend application built using React, TypeScript, and Vite.
-This project includes product browsing, product details, cart management, and a clean UI — all running on static data.
+A modern and responsive E-commerce frontend application built using React and Vite.
+This project includes product browsing, cart management, and a clean UI — all running on static data.
 
 ## Features and Functionality
 
 Product listing page
 
-Product details page
-
 Add to Cart / Remove from Cart
 
 Update quantity in cart
-
-Search and filter products
 
 Client-side routing with React Router
 
@@ -27,17 +23,13 @@ Static mock product data (no backend required)
 
 React 18
 
-TypeScript
-
 Vite
 
 React Router v6
 
-Context API / Redux (optional)
+Context API
 
-Tailwind CSS or custom CSS
-
-ESLint + Prettier (optional)
+Tailwind CSS
 
 ## Installation & Setup
 1. Clone the repository
@@ -49,28 +41,9 @@ npm install
 npm run dev
 4. Build for production
 npm run build
- Example Product Data (products.ts)
-export const products = [
-  {
-    id: 1,
-    name: "Wireless Headphones",
-    price: 79.99,
-    image: "/images/headphones.jpg",
-    description: "High-quality wireless Bluetooth headphones."
-  },
-  {
-    id: 2,
-    name: "Smart Watch",
-    price: 129.99,
-    image: "/images/smartwatch.jpg",
-    description: "Fitness tracking and notification features."
-  }
-];
+## Deployment
 
- Cart Logic (Context API Example)
-interface CartItem {
-  id: number;
-  name: string;
-  price: number;
-  quantity: number;
-}
+The project is built and ready for deployment. The `dist/` folder contains:
+- Optimized HTML, CSS, and JavaScript files
+- Total bundle size: ~258KB (78KB gzipped)
+- Ready for static hosting (Netlify, Vercel, GitHub Pages)
