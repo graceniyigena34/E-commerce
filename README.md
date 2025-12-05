@@ -44,8 +44,4 @@ npm run dev
 4. Build for production
 npm run build
 ## Deployment
-
-The project is built and ready for deployment. The `dist/` folder contains:
-- Optimized HTML, CSS, and JavaScript files
-- Total bundle size: ~258KB (78KB gzipped)
-- Ready for static hosting (Netlify, Vercel, GitHub Pages)
+I deployed using the vercel 
