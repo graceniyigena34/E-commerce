@@ -42,7 +42,7 @@ ESLint + Prettier (optional)
 ## Installation & Setup
 1. Clone the repository
 git clone : https://github.com/graceniyigena34/E-commerce
-cd ecommerce-react-ts
+cd my-react-app
 2. Install packages
 npm install
 3. Start the development server
