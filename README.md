@@ -1,3 +1,5 @@
+This is the deployed link: https://e-commerce-vxgc-lake.vercel.app
+
 ## E-Commerce Web App (React + Vite)
 
 A modern and responsive E-commerce frontend application built using React and Vite.
